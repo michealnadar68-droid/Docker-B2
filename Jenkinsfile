@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('#1.Checkout'){
       steps{
-        git url:'https://github.com/michealnadar68-droid/Docker-B2/new/main',branch:'main'
+        git url:'https://github.com/michealnadar68-droid/Docker-B2',branch:'main'
       }
     }
 
